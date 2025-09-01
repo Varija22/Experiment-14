@@ -93,5 +93,47 @@ Conclusion
 The program successfully demonstrates multiple inheritance in C++.
 The derived class `Smartphone` inherited members from both `Electronics` and `Specs`, while also containing its own members. This shows how a class can combine properties and methods from multiple sourcess, making the code more modular and reusable.
 
+Program 3
+
+Aim
+
+To implement **multilevel inheritance** in C++ using three classes: `Animal`, `Mammal`, and `Dog`.
+
+Software Used
+Programiz Online Compiler
+
+Theory
+Inheritance is a key concept in Object-Oriented Programming (OOP), allowing one class to acquire the properties and behaviors of another.
+
+* Multilevel inheritance occurs when a class is derived from another derived class, forming a chain of inheritance.
+* In this program:
+
+  * `Animal` is the base class containing `kingdom` and the `eat()` function.
+  * `Mammal` is derived from `Animal` and adds `type` and `breathe()`.
+  * `Dog` is derived from `Mammal` and adds `breed` and `sound()`.
+* The `Dog` object can access members from all three classes, demonstrating how properties and methods propagate through multiple levels.
+
+Algorithm
+
+1. Start the program.
+2. Define the base class `Animal` with a data member `kingdom` and a member function `eat()`.
+3. Define the derived class `Mammal` that inherits from `Animal`. Add `type` and `breathe()`.
+4. Define the derived class `Dog` that inherits from `Mammal`. Add `breed` and `sound()`.
+5. In `main()` function:
+
+   * Create an object of `Dog`.
+   * Access and display `kingdom` and call `eat()` from `Animal`.
+   * Access and display `type` and call `breathe()` from `Mammal`.
+   * Access and display `breed` and call `sound()` from `Dog`.
+6. Stop the program.
+
+Conclusion
+
+The program successfully demonstrates multilevel inheritance in C++.
+The derived class `Dog` inherited properties and behaviors from `Mammal` and `Animal`, while also having its own members. This shows how **data and functions can be passed down multiple levels, improving code reusability and organization.
+
+
+
+
 
 
