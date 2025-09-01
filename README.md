@@ -132,6 +132,48 @@ Conclusion
 The program successfully demonstrates multilevel inheritance in C++.
 The derived class `Dog` inherited properties and behaviors from `Mammal` and `Animal`, while also having its own members. This shows how **data and functions can be passed down multiple levels, improving code reusability and organization.
 
+Program 4
+
+Aim
+To implement hierarchical inheritance in C++ using a base class `Shape` and two derived classes `Circle` and `Rectangle`.
+
+Software Used
+Programiz Online Compiler
+
+Theory
+
+Inheritance is a core concept in Object-Oriented Programming (OOP) that allows one class to acquire the properties and behaviors of another.
+* Hierarchical inheritance occurs when multiple derived classes inherit from a single base class.
+* In this program:
+
+  * `Shape` is the base class containing a data member `color` and a member function `displayColor()`.
+  * `Circle` is a derived class from `Shape` and has a member function `area()` for circular area.
+  * `Rectangle` is another derived class from `Shape` and has a member function `area()` for rectangular area.
+* Objects of the derived classes can access both the base class members and their own members.
+
+Algorithm
+
+1. Start the program.
+2. Define the base class `Shape` with:
+
+   * Data member `color`
+   * Member function `displayColor()`
+3. Define derived class `Circle` that inherits from `Shape` and adds an `area()` function.
+4. Define derived class `Rectangle` that inherits from `Shape` and adds an `area()` function.
+5. In the `main()` function:
+
+   * Create objects of `Circle` and `Rectangle`.
+   * Call `displayColor()` from the base class for both objects.
+   * Call `area()` from `Circle` and `Rectangle`.
+6. Stop the program.
+
+Conclusion
+
+The program successfully demonstrates hierarchical inheritance in C++.
+Multiple derived classes (`Circle` and `Rectangle`) inherited properties from a single base class (`Shape`), while also having their own members. This shows how **code can be shared efficiently among multiple classes, promoting reusability and modular design.
+
+
+
 
 
 
