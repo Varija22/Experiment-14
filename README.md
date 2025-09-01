@@ -91,7 +91,7 @@ Algorithm
 Conclusion
 
 The program successfully demonstrates multiple inheritance in C++.
-The derived class `Smartphone` inherited members from both `Electronics` and `Specs`, while also containing its own members. This shows how **a class can combine properties and methods from multiple sourcess, making the code more modular and reusable.
+The derived class `Smartphone` inherited members from both `Electronics` and `Specs`, while also containing its own members. This shows how a class can combine properties and methods from multiple sourcess, making the code more modular and reusable.
 
 
 
