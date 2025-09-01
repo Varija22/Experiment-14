@@ -44,6 +44,7 @@ The derived class `Car` inherited data members and functions from the base class
 
 
 Program 2
+
 Aim
 To implement multiple inheritance in C++ using two base classes `Electronics` and `Specs`, and a derived class `Smartphone`.
 
